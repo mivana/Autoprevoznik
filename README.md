@@ -11,6 +11,7 @@ Projekat predstavlja primer projektovanja baze podataka za kompaniju autoprevozn
 * Projekat je radjen u **Visual Studio** programu. Sama aplikacija je razvijena kao **Windows Presentation Formanat (WPF)** aplikacija.
 * Tokom razvoja aplikacije korišćen je **MVVM** obrazak, odnosno Model - View - ViewModel.
 * Model podataka razvijen je pomoću **Oracle SQL Developer Data Modeler** programa, pomoću kojeg smo napravili ER model podataka i generisali iz nje Relacioni model podataka.
+* Upotreba SQL baze podataka podrazumeva i **upotrebu SQL komandi** (tj. trigera), uskladišćenih procedura, indeksa i funckija.
 
 
 
