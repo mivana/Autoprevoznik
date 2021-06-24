@@ -14,4 +14,9 @@ Projekat predstavlja primer projektovanja baze podataka za kompaniju autoprevozn
 * Upotreba SQL baze podataka podrazumeva i **upotrebu SQL komandi** (tj. trigera), uskladišćenih procedura, indeksa i funckija.
 
 
+## Opis Rešenja
 
+Primalna svrha projekta je u edukativne svrhe, time je korisnički interfejs rešenja minimalistički i jednostavnog izgleda. 
+Projekat nam pruža osnovne funkcije rukavanja sa bazom podataka, tj podrazumeva upotrebu funkcija *Dodaj novi entitet*, *Izmeni entitet*, *Izbrisi entitet* i *Osveži*. Kod pojedinih tabela baza imamo mogućnost dodatnih funkcija, koje su vezane za samu tabelu u bazi. Na primer, kod tabele **Autobus** imamo dodatnu funkciju *Ukupno sati voznje* čija je funkcija izračunjavanja i prikaza ukupnog broja sati koji su provozali pojedini Autobusi. Data funkcija se izvršava putem posebne procedure u bazi podataka.
+
+U okviru projekta imamo nekoliko SQL funkcija, procedura, trigera i indeks.
