@@ -1,0 +1,14 @@
+ALTER TABLE Putuje_kroz
+ADD CONSTRAINT FK_ASS_12 FOREIGN KEY
+(
+Naselje_ime_naselja
+)
+REFERENCES Naselje
+(
+ime_naselja
+)
+ON
+DELETE
+  NO ACTION ON
+UPDATE NO ACTION
+GO

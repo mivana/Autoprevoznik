@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="820FA7F9-7AA1-F5F5-4688-B61A460440CB" name="Kondukter">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 14:10:14 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="849B9710-5B9A-4374-863C-631892641DC6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>D7893DD6-0758-1EBF-05B3-8A2BFAB5A051</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="br_doz_kond" id="468BE429-8D55-DF05-A767-BED540A5BA3F">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 14:10:22 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="849B9710-5B9A-4374-863C-631892641DC6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

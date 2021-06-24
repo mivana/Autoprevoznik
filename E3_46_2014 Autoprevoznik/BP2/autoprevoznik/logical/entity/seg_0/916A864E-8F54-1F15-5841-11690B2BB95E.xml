@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="916A864E-8F54-1F15-5841-11690B2BB95E" name="Linija">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 14:16:37 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="E03D4CDA-B63A-56CF-2063-13F377848CA5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="br_linije" id="72853932-1C58-981C-8DB1-D4BAE1B337B2">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 14:16:45 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="E03D4CDA-B63A-56CF-2063-13F377848CA5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime_linije" id="7EF089EC-0B86-7265-4916-EBD9183C00FB">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 14:16:45 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="E03D4CDA-B63A-56CF-2063-13F377848CA5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9B567F9B-33DC-B509-A4A6-2B0871F3955D" name="Linija PK">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 14:17:02 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="E03D4CDA-B63A-56CF-2063-13F377848CA5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>72853932-1C58-981C-8DB1-D4BAE1B337B2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

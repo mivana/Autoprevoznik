@@ -1,0 +1,36 @@
+﻿<Window x:Class="AutoprevoznikGUI.View.AELinijaView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoprevoznikGUI.View"
+        mc:Ignorable="d"
+        Title="AELinijaView" Height="350" Width="400">
+    <Grid>
+        <Label x:Name="label" Content="Dodaj novu liniju:" HorizontalAlignment="Left" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+        <Label x:Name="label_br_linije" Content="Broj Linije*" HorizontalAlignment="Left" Margin="27,43,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbBrLinije" HorizontalAlignment="Left" Height="23" Margin="152,47,-39,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179"/>
+        <Label x:Name="errorBr" Foreground="Red" FontSize="11" HorizontalAlignment="Left" Margin="152,66,0,0" VerticalAlignment="Top"/>
+        
+        <Label x:Name="label_ime_linije" Content="Ime Linije" HorizontalAlignment="Left" Margin="27,92,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbImeLinije" HorizontalAlignment="Left" Height="23" Margin="152,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179"/>
+
+        <Label x:Name="label_naselje" Content="Prolazi kroz Naselja" HorizontalAlignment="Left" Margin="27,140,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="LBNaselje" SelectionMode="Multiple" HorizontalAlignment="Left" Height="100" Margin="152,140,0,0" VerticalAlignment="Top" Width="179"/>
+        <Label x:Name="errorNaselje" Foreground="Red" FontSize="11" HorizontalAlignment="Left" Margin="152,240,0,0" VerticalAlignment="Top"/>
+        
+        <Button x:Name="button_ok" Command="{Binding AddEditCommand}" HorizontalAlignment="Left" Margin="257,258,0,0" VerticalAlignment="Top" Width="35" Height="35" BorderBrush="Transparent">
+            <Button.Background>
+                <ImageBrush ImageSource="/AutoprevoznikGUI;component/Images/Button_13-128.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_cancel" Command="{Binding CancelCommand}" HorizontalAlignment="Left" Margin="336,258,0,0" VerticalAlignment="Top" Width="35" Height="35" BorderBrush="Transparent">
+            <Button.Background>
+                <ImageBrush ImageSource="/AutoprevoznikGUI;component/Images/Button_12-256.png"/>
+            </Button.Background>
+        </Button>
+        
+
+    </Grid>
+</Window>

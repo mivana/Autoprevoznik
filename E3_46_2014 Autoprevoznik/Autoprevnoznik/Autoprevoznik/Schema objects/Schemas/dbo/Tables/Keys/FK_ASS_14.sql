@@ -1,0 +1,1 @@
+ALTER TABLE Vozi ADD CONSTRAINT FK_ASS_14 FOREIGN KEY ( Vozac_mbr_r ) REFERENCES Vozac ( mbr_r ) ;

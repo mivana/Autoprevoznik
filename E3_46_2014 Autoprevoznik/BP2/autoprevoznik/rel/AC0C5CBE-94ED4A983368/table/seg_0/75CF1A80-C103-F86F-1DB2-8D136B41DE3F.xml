@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75CF1A80-C103-F86F-1DB2-8D136B41DE3F" name="Vozac">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>2CD5E410-70A1-EA7D-6E3B-9EE4CB23ECB9</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mbr_r" id="511E328E-ED22-32FB-64FE-7FA98ACA1E94">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>05C7EF73-73AD-6C92-1931-8F4F0F00317D</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDA17935-0DF6-EAE5-00A6-391DFE9C2C04" referredColumn="11F2B109-F1AD-22F2-127C-5D11D27A9478"/>
+</associations>
+</Column>
+<Column name="br_doz_voz" id="4BD21B93-E3AD-2072-9918-EF38298892AF">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>EC1D6122-85EA-860A-8B46-33EDAEB9A992</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kategorije" id="57479454-CEAF-5BEE-3EFD-1E036F3EFFD1">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>CDD0A9D6-8D64-024E-6288-30991CD20293</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2461DEB7-7687-C5F7-31DA-404EFE8F7CB1" name="Vozac_PK">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>9BFFD535-FE45-3983-3F88-89A46CEABC37</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="511E328E-ED22-32FB-64FE-7FA98ACA1E94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4DCFA23-0BB5-BC93-A917-D8CC11BD344C" name="Vozac_Radnik_FK">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>EBACED18-1678-9168-776A-F1C5CB921652</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="511E328E-ED22-32FB-64FE-7FA98ACA1E94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

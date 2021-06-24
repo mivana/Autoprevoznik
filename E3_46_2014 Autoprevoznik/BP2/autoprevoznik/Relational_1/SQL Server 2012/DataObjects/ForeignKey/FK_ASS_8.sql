@@ -1,0 +1,14 @@
+ALTER TABLE Prodaje
+ADD CONSTRAINT FK_ASS_8 FOREIGN KEY
+(
+Kondukter_mbr_r
+)
+REFERENCES Kondukter
+(
+mbr_r
+)
+ON
+DELETE
+  NO ACTION ON
+UPDATE NO ACTION
+GO

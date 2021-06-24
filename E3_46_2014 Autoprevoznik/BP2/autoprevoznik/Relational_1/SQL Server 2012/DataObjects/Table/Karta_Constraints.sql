@@ -1,0 +1,8 @@
+ALTER TABLE Karta ADD CONSTRAINT Karta_PK PRIMARY KEY CLUSTERED (br_karte)
+WITH
+  (
+    ALLOW_PAGE_LOCKS = ON ,
+    ALLOW_ROW_LOCKS  = ON
+  )
+  ON "default"
+GO

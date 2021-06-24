@@ -1,0 +1,1 @@
+ALTER TABLE Stanica ADD CONSTRAINT Stanica_PK PRIMARY KEY ( id_st ) ;

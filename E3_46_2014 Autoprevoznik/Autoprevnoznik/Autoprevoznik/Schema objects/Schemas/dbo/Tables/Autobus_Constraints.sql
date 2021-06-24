@@ -1,0 +1,1 @@
+ALTER TABLE Autobus ADD CONSTRAINT Autobus_PK PRIMARY KEY ( reg ) ;

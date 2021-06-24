@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Prodaje" directorySegmentName="seg_0" id="9256E40B-8338-256F-7DDE-874906FDE5FD">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-15 09:12:35 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="AC0C5CBE-3B19-53D8-82D8-94ED4A983368" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>820FA7F9-7AA1-F5F5-4688-B61A460440CB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>96CEDFBE-4B71-D9D3-5EA2-7B2C03453E3D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

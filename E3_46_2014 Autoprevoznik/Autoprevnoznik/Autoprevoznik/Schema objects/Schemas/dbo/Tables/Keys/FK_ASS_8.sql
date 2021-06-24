@@ -1,0 +1,1 @@
+ALTER TABLE Proverava ADD CONSTRAINT FK_ASS_8 FOREIGN KEY ( Karta_mbr_p, Karta_reg, Karta_br_linije, Karta_dv_polaska ) REFERENCES Karta ( Putnik_mbr_p, Putuje_Autobus_reg, Putuje_Linija_br_linije, Putuje_dv_polaska ) ;

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="990A6C2D-E727-BA1F-ABDF-C08BF51C6D5C" name="Kontroler">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>87C5D8D6-0D8F-C02F-6873-246C2166408C</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mbr_r" id="E297DDED-2166-444F-831B-2D8566149A03">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>05C7EF73-73AD-6C92-1931-8F4F0F00317D</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BADA1EB2-31E4-0D76-16E6-8A9F3E25501B" referredColumn="11F2B109-F1AD-22F2-127C-5D11D27A9478"/>
+</associations>
+</Column>
+<Column name="br_doz_kont" id="4DD70C72-FC80-0559-7F38-C272D0F089C0">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>18CAECDB-D9E7-8A8C-82FD-9E65EF51615B</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="129FD7B9-507C-6B84-A668-EFE912D67DC3" name="Kontroler_PK">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>9BFFD535-FE45-3983-3F88-89A46CEABC37</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E297DDED-2166-444F-831B-2D8566149A03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5283AB8E-19A5-2BDC-881D-65CA1B39413A" name="Kontroler_Radnik_FK">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>1AFA8311-4C1C-AEF2-8F63-BB0668286A80</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E297DDED-2166-444F-831B-2D8566149A03"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

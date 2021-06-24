@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Proverava" directorySegmentName="seg_0" id="EEA2F9E4-1214-4498-A3A2-BD5CCDDAA41E">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 14:54:11 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="849B9710-5B9A-4374-863C-631892641DC6" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>87C5D8D6-0D8F-C02F-6873-246C2166408C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>96CEDFBE-4B71-D9D3-5EA2-7B2C03453E3D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

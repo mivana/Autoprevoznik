@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A4C8C5D-827C-3691-B020-276EFD771ACB" name="Naselje">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>9B121C7B-7611-46EF-132D-7A10E3171464</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ime_naselja" id="82283AF2-E212-0FD8-767E-01ADE11B4D6B">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>CB9AFBD8-8767-C91E-D935-7B517F836CBC</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3AFC7B35-AA11-EA64-7EEC-5EFE7DC52F00" name="Naselje_PK">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>61A5C5C8-428F-329B-2AED-445758CAE0C0</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="82283AF2-E212-0FD8-767E-01ADE11B4D6B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

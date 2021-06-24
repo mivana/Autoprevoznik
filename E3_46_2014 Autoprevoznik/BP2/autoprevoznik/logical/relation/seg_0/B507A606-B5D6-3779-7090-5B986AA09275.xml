@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Vozi" directorySegmentName="seg_0" id="B507A606-B5D6-3779-7090-5B986AA09275">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 14:34:16 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="849B9710-5B9A-4374-863C-631892641DC6" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>2CD5E410-70A1-EA7D-6E3B-9EE4CB23ECB9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ED6598DC-B290-4EC0-74FA-0987F7B92892</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

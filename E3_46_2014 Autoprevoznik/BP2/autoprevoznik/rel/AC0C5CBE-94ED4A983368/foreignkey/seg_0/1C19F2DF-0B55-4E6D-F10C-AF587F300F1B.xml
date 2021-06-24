@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1C19F2DF-0B55-4E6D-F10C-AF587F300F1B" containerWithKeyObject="C3C503E5-B0BF-05AF-E5D4-C5D646117F82" localFKIndex="FDE6EB0F-E541-F214-D98E-BC04CF4BA240" name="Putuje_Linija_FK">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:59 UTC</createdTime>
+<generatorID>E93027C6-1825-71A9-A2F1-B093E6CE87C3</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>46B1C366-B8D6-7C68-81D2-5DBEDF22ECAE</referredTableID>
+<keyObject>DB846060-4AA6-FB59-B3F6-DB7060E5DB1F</keyObject>
+<referredKeyID>DB846060-4AA6-FB59-B3F6-DB7060E5DB1F</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

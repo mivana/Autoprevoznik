@@ -1,0 +1,45 @@
+D:\Fakultet\Projekat\Autoprevnoznik\Autoprevoznik\bin\Debug\Autoprevoznik.dacpac
+D:\Fakultet\Projekat\Autoprevnoznik\Autoprevoznik\bin\Debug\Autoprevoznik.dll
+D:\Fakultet\Projekat\Autoprevnoznik\Autoprevoznik\bin\Debug\Autoprevoznik.pdb
+D:\Fakultet\Projekat\Autoprevnoznik\Autoprevoznik\obj\Debug\Autoprevoznik.dll
+D:\Fakultet\Projekat\Autoprevnoznik\Autoprevoznik\obj\Debug\Autoprevoznik.pdb
+D:\Fakultet\Projekat\Autoprevnoznik\Autoprevoznik\obj\Debug\Autoprevoznik.sqlprojAssemblyReference.cache
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevoznik\bin\Debug\Autoprevoznik.dacpac
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevoznik\bin\Debug\Autoprevoznik.dll
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevoznik\bin\Debug\Autoprevoznik.pdb
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevoznik\obj\Debug\Autoprevoznik.dll
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevoznik\obj\Debug\Autoprevoznik.pdb
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevoznik\obj\Debug\Autoprevoznik.sqlprojAssemblyReference.cache
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevoznik\obj\Debug\Model.xml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevoznik\obj\Debug\refactor.xml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevoznik\obj\Debug\postdeploy.sql
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevoznik\obj\Debug\predeploy.sql
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\Autoprevoznik\bin\Debug\Autoprevoznik.dacpac
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\Autoprevoznik\bin\Debug\Autoprevoznik.dll
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\Autoprevoznik\bin\Debug\Autoprevoznik.pdb
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\Autoprevoznik\obj\Debug\Autoprevoznik.dll
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\Autoprevoznik\obj\Debug\Autoprevoznik.pdb
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\Autoprevoznik\obj\Debug\Model.xml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\Autoprevoznik\obj\Debug\refactor.xml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\Autoprevoznik\obj\Debug\postdeploy.sql
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\Autoprevoznik\obj\Debug\predeploy.sql
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\Autoprevoznik\bin\Debug\Autoprevoznik.dacpac
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\Autoprevoznik\bin\Debug\Autoprevoznik.dll
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\Autoprevoznik\bin\Debug\Autoprevoznik.pdb
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\Autoprevoznik\obj\Debug\Autoprevoznik.sqlprojAssemblyReference.cache
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\Autoprevoznik\obj\Debug\Model.xml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\Autoprevoznik\obj\Debug\refactor.xml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\Autoprevoznik\obj\Debug\postdeploy.sql
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\Autoprevoznik\obj\Debug\predeploy.sql
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\Autoprevoznik\obj\Debug\Autoprevoznik.dll
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\Autoprevoznik\obj\Debug\Autoprevoznik.pdb
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\Autoprevoznik\bin\Debug\Autoprevoznik.dacpac
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\Autoprevoznik\bin\Debug\Autoprevoznik.dll
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\Autoprevoznik\bin\Debug\Autoprevoznik.pdb
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\Autoprevoznik\obj\Debug\Autoprevoznik.sqlprojAssemblyReference.cache
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\Autoprevoznik\obj\Debug\Model.xml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\Autoprevoznik\obj\Debug\refactor.xml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\Autoprevoznik\obj\Debug\postdeploy.sql
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\Autoprevoznik\obj\Debug\predeploy.sql
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\Autoprevoznik\obj\Debug\Autoprevoznik.dll
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\Autoprevoznik\obj\Debug\Autoprevoznik.pdb

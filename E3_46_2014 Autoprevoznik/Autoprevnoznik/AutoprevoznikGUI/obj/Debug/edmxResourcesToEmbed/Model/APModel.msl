@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AutoprevoznikDBModelStoreContainer" CdmEntityContainer="AutoprevoznikDBEntities">
+    <EntitySetMapping Name="Autobus">
+      <EntityTypeMapping TypeName="AutoprevoznikDBModel.Autobu">
+        <MappingFragment StoreEntitySet="Autobus">
+          <ScalarProperty Name="reg" ColumnName="reg" />
+          <ScalarProperty Name="model" ColumnName="model" />
+          <ScalarProperty Name="br_mesta" ColumnName="br_mesta" />
+          <ScalarProperty Name="dat_reg" ColumnName="dat_reg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Garazas">
+      <EntityTypeMapping TypeName="AutoprevoznikDBModel.Garaza">
+        <MappingFragment StoreEntitySet="Garaza">
+          <ScalarProperty Name="id_gar" ColumnName="id_gar" />
+          <ScalarProperty Name="Naselje_ime_naselja" ColumnName="Naselje_ime_naselja" />
+          <ScalarProperty Name="kapacitet" ColumnName="kapacitet" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kartas">
+      <EntityTypeMapping TypeName="AutoprevoznikDBModel.Karta">
+        <MappingFragment StoreEntitySet="Karta">
+          <ScalarProperty Name="sediste" ColumnName="sediste" />
+          <ScalarProperty Name="datum_kup" ColumnName="datum_kup" />
+          <ScalarProperty Name="cena" ColumnName="cena" />
+          <ScalarProperty Name="relacija" ColumnName="relacija" />
+          <ScalarProperty Name="Putnik_mbr_p" ColumnName="Putnik_mbr_p" />
+          <ScalarProperty Name="Putuje_Autobus_reg" ColumnName="Putuje_Autobus_reg" />
+          <ScalarProperty Name="Putuje_Linija_br_linije" ColumnName="Putuje_Linija_br_linije" />
+          <ScalarProperty Name="Putuje_dv_polaska" ColumnName="Putuje_dv_polaska" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kondukters">
+      <EntityTypeMapping TypeName="AutoprevoznikDBModel.Kondukter">
+        <MappingFragment StoreEntitySet="Kondukter">
+          <ScalarProperty Name="mbr_r" ColumnName="mbr_r" />
+          <ScalarProperty Name="br_doz_kond" ColumnName="br_doz_kond" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Kontrolers">
+      <EntityTypeMapping TypeName="AutoprevoznikDBModel.Kontroler">
+        <MappingFragment StoreEntitySet="Kontroler">
+          <ScalarProperty Name="mbr_r" ColumnName="mbr_r" />
+          <ScalarProperty Name="br_doz_kont" ColumnName="br_doz_kont" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Linijas">
+      <EntityTypeMapping TypeName="AutoprevoznikDBModel.Linija">
+        <MappingFragment StoreEntitySet="Linija">
+          <ScalarProperty Name="br_linije" ColumnName="br_linije" />
+          <ScalarProperty Name="ime_linije" ColumnName="ime_linije" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Naseljes">
+      <EntityTypeMapping TypeName="AutoprevoznikDBModel.Naselje">
+        <MappingFragment StoreEntitySet="Naselje">
+          <ScalarProperty Name="ime_naselja" ColumnName="ime_naselja" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Putniks">
+      <EntityTypeMapping TypeName="AutoprevoznikDBModel.Putnik">
+        <MappingFragment StoreEntitySet="Putnik">
+          <ScalarProperty Name="mbr_p" ColumnName="mbr_p" />
+          <ScalarProperty Name="ime_p" ColumnName="ime_p" />
+          <ScalarProperty Name="prz_p" ColumnName="prz_p" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Putujes">
+      <EntityTypeMapping TypeName="AutoprevoznikDBModel.Putuje">
+        <MappingFragment StoreEntitySet="Putuje">
+          <ScalarProperty Name="Autobus_reg" ColumnName="Autobus_reg" />
+          <ScalarProperty Name="Linija_br_linije" ColumnName="Linija_br_linije" />
+          <ScalarProperty Name="dv_polaska" ColumnName="dv_polaska" />
+          <ScalarProperty Name="dv_dolaska" ColumnName="dv_dolaska" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Radniks">
+      <EntityTypeMapping TypeName="AutoprevoznikDBModel.Radnik">
+        <MappingFragment StoreEntitySet="Radnik">
+          <ScalarProperty Name="mbr_r" ColumnName="mbr_r" />
+          <ScalarProperty Name="ime_r" ColumnName="ime_r" />
+          <ScalarProperty Name="prz_r" ColumnName="prz_r" />
+          <ScalarProperty Name="god_r" ColumnName="god_r" />
+          <ScalarProperty Name="adresa" ColumnName="adresa" />
+          <ScalarProperty Name="br_tel" ColumnName="br_tel" />
+          <ScalarProperty Name="ugovor_sklopljen" ColumnName="ugovor_sklopljen" />
+          <ScalarProperty Name="ugovor_istekao" ColumnName="ugovor_istekao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stanicas">
+      <EntityTypeMapping TypeName="AutoprevoznikDBModel.Stanica">
+        <MappingFragment StoreEntitySet="Stanica">
+          <ScalarProperty Name="id_st" ColumnName="id_st" />
+          <ScalarProperty Name="Naselje_ime_naselja" ColumnName="Naselje_ime_naselja" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Vozacs">
+      <EntityTypeMapping TypeName="AutoprevoznikDBModel.Vozac">
+        <MappingFragment StoreEntitySet="Vozac">
+          <ScalarProperty Name="mbr_r" ColumnName="mbr_r" />
+          <ScalarProperty Name="br_doz_voz" ColumnName="br_doz_voz" />
+          <ScalarProperty Name="kategorije" ColumnName="kategorije" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="Prodaje" TypeName="AutoprevoznikDBModel.Prodaje" StoreEntitySet="Prodaje">
+      <EndProperty Name="Kondukter">
+        <ScalarProperty Name="mbr_r" ColumnName="Kondukter_mbr_r" />
+      </EndProperty>
+      <EndProperty Name="Karta">
+        <ScalarProperty Name="Putnik_mbr_p" ColumnName="Karta_mbr_p" />
+        <ScalarProperty Name="Putuje_Autobus_reg" ColumnName="Karta_reg" />
+        <ScalarProperty Name="Putuje_Linija_br_linije" ColumnName="Karta_br_linije" />
+        <ScalarProperty Name="Putuje_dv_polaska" ColumnName="Karta_dv_polaska" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="Proverava" TypeName="AutoprevoznikDBModel.Proverava" StoreEntitySet="Proverava">
+      <EndProperty Name="Kontroler">
+        <ScalarProperty Name="mbr_r" ColumnName="Kontroler_mbr_r" />
+      </EndProperty>
+      <EndProperty Name="Karta">
+        <ScalarProperty Name="Putnik_mbr_p" ColumnName="Karta_mbr_p" />
+        <ScalarProperty Name="Putuje_Autobus_reg" ColumnName="Karta_reg" />
+        <ScalarProperty Name="Putuje_Linija_br_linije" ColumnName="Karta_br_linije" />
+        <ScalarProperty Name="Putuje_dv_polaska" ColumnName="Karta_dv_polaska" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="Putuje_kroz" TypeName="AutoprevoznikDBModel.Putuje_kroz" StoreEntitySet="Putuje_kroz">
+      <EndProperty Name="Naselje">
+        <ScalarProperty Name="ime_naselja" ColumnName="Naselje_ime_naselja" />
+      </EndProperty>
+      <EndProperty Name="Linija">
+        <ScalarProperty Name="br_linije" ColumnName="Linija_br_linije" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="Vozi" TypeName="AutoprevoznikDBModel.Vozi" StoreEntitySet="Vozi">
+      <EndProperty Name="Vozac">
+        <ScalarProperty Name="mbr_r" ColumnName="Vozac_mbr_r" />
+      </EndProperty>
+      <EndProperty Name="Autobus">
+        <ScalarProperty Name="reg" ColumnName="Autobus_reg" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

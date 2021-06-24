@@ -1,0 +1,40 @@
+﻿using AutoprevoznikGUI.Model;
+using AutoprevoznikGUI.ViewModel;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Shapes;
+
+namespace AutoprevoznikGUI.View
+{
+    /// <summary>
+    /// Interaction logic for AEPutujeView.xaml
+    /// </summary>
+    public partial class AEPutujeView : Window
+    {
+        public static AEPutujeView view;
+        public AEPutujeView(bool function, PutujeViewModel putujeVM)
+        {
+            InitializeComponent();
+            view = this;
+            DataContext = new AEPutujeViewModel(function, putujeVM);
+        }
+
+        public AEPutujeView(bool function, Putuje selected, PutujeViewModel putujeVM)
+        {
+            InitializeComponent();
+            view = this;
+            DataContext = new AEPutujeViewModel(function, selected, putujeVM);
+        }
+
+    }
+}

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA45C295-D4C2-7203-94D1-F93164C0121E" name="Putuje">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 14:18:33 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="849B9710-5B9A-4374-863C-631892641DC6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="reg" id="9A801376-A057-901B-5827-C62EA47AADD0">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 14:24:13 UTC</createdTime>
+<generatorID>213E81AC-390C-2A08-FBBE-7D8757B218AD</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="849B9710-5B9A-4374-863C-631892641DC6" value="true"/>
+</engineerTo>
+<referedAttribute>D72407AB-CC51-09F2-9EBA-E9482A75B45B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="br_linije" id="E007735F-7313-67C8-2D3F-7839B5601DD5">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 14:29:00 UTC</createdTime>
+<generatorID>E93027C6-1825-71A9-A2F1-B093E6CE87C3</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="849B9710-5B9A-4374-863C-631892641DC6" value="true"/>
+</engineerTo>
+<referedAttribute>72853932-1C58-981C-8DB1-D4BAE1B337B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dv_polaska" id="1B01F5D7-DF25-A1EC-D53C-4C5CF1D6FABD">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-15 09:11:31 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="849B9710-5B9A-4374-863C-631892641DC6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dv_dolaska" id="9B4357CB-ED17-EB81-84FB-E5FF8F57DC5B">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-15 09:11:46 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="849B9710-5B9A-4374-863C-631892641DC6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="38E2F64F-5EA7-799A-7742-3E9A023B37D8" name="Putuje PK">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 15:08:46 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="849B9710-5B9A-4374-863C-631892641DC6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9A801376-A057-901B-5827-C62EA47AADD0</attributeRef>
+<attributeRef>E007735F-7313-67C8-2D3F-7839B5601DD5</attributeRef>
+<attributeRef>1B01F5D7-DF25-A1EC-D53C-4C5CF1D6FABD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,78 @@
+﻿<Window x:Class="AutoprevoznikGUI.View.AERadnikView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoprevoznikGUI.View"
+        mc:Ignorable="d"
+        Title="AERadnikView" Height="650" Width="690">
+    <Grid>
+        <Label x:Name="label" Content="Dodaj novog vozaca:" HorizontalAlignment="Left" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+        <Label x:Name="label_mbr" Content="Maticni broj*" HorizontalAlignment="Left" Margin="27,43,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_mbr_r" HorizontalAlignment="Right" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="256" Margin="0,46,309,0"/>
+        <Label x:Name="errorMBR" Foreground="Red" FontSize="11" HorizontalAlignment="Left" Margin="120,69,0,0" VerticalAlignment="Top"/>
+
+        <Label x:Name="label_Ime" Content="Ime" HorizontalAlignment="Left" Margin="27,90,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_ime_r" HorizontalAlignment="Left" Height="23" Margin="117,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179"/>
+
+        <Label x:Name="label_Prezime" Content="Prezime" HorizontalAlignment="Left" Margin="301,91,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_prz_r" HorizontalAlignment="Left" Height="23" Margin="353,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179"/>
+
+        <Label x:Name="label_Adresa" Content="Adresa" HorizontalAlignment="Left" Margin="27,131,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_adresa" HorizontalAlignment="Left" Height="23" Margin="117,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206"/>
+
+        <Label x:Name="label_Telefon" Content="Telefon" HorizontalAlignment="Left" Margin="328,134,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_br_tel" HorizontalAlignment="Left" Height="23" Margin="381,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="151"/>
+        <Label x:Name="errorTel" Foreground="Red" FontSize="11" HorizontalAlignment="Left" Margin="381,160,0,0" VerticalAlignment="Top"/>
+
+        <Label x:Name="label_datum" Content="Datum Rodjenja" HorizontalAlignment="Left" Margin="27,176,0,0" VerticalAlignment="Top"/>
+        <Calendar x:Name="tb_god_r" HorizontalAlignment="Left" Margin="49,207,0,0" VerticalAlignment="Top"/>
+
+        <Label x:Name="label_datum_sklopljen" Content="Datum sklapanja ugovora*" HorizontalAlignment="Left" Margin="233,176,0,0" VerticalAlignment="Top"/>
+        <Calendar x:Name="ugovor_skloljen" HorizontalAlignment="Left" Margin="252,207,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="errorDatum" Foreground="Red" FontSize="11" HorizontalAlignment="Left" Margin="252,375,0,0" VerticalAlignment="Top"/>
+
+        <Label x:Name="label_datum_istekao" Content="Datum isteka ugovora" HorizontalAlignment="Left" Margin="436,176,0,0" VerticalAlignment="Top"/>
+        <Calendar x:Name="ugovor_istekao" HorizontalAlignment="Left" Margin="461,207,0,0" VerticalAlignment="Top"/>
+
+        <Button x:Name="button_ok" Command="{Binding AddEditCommand}" HorizontalAlignment="Left" Margin="540,548,0,0" VerticalAlignment="Top" Width="35" Height="35" BorderBrush="Transparent">
+            <Button.Background>
+                <ImageBrush ImageSource="/AutoprevoznikGUI;component/Images/Button_13-128.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_cancel" Command="{Binding CancelCommand}" HorizontalAlignment="Left" Margin="619,548,0,0" VerticalAlignment="Top" Width="35" Height="35" BorderBrush="Transparent">
+            <Button.Background>
+                <ImageBrush ImageSource="/AutoprevoznikGUI;component/Images/Button_12-256.png"/>
+            </Button.Background>
+        </Button>
+
+        <Label Content="Uloga:" HorizontalAlignment="Left" Margin="27,395,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="UlogaVozac" Content="Vozac" Command="{Binding VozacCommand}" HorizontalAlignment="Left" Margin="82,401,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="UlogaKondukter" Content="Kondukter" Command="{Binding KondukterCommand}" HorizontalAlignment="Left" Margin="184,401,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="UlogaKontroler" Content="Kontroler" Command="{Binding KontrolerCommand}" HorizontalAlignment="Left" Margin="292,401,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="errorUloga" Foreground="Red" FontSize="11" HorizontalAlignment="Left" Margin="82,426,0,0" VerticalAlignment="Top"/>
+
+        <Grid x:Name="GridVozac" HorizontalAlignment="Left" Height="144" Margin="40,426,0,0" VerticalAlignment="Top" Width="391" Visibility="Collapsed">
+            <Label Content="Broj Dozvole:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="tbBrDozVozac" HorizontalAlignment="Left" Height="23" Margin="92,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+            <Label Content="Kategorije:" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="tbKategorije" HorizontalAlignment="Left" Height="23" Margin="92,65,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Label  x:Name="errorDozVozac" Foreground="Red" FontSize="11" HorizontalAlignment="Left" Margin="92,36,0,0" VerticalAlignment="Top"/>
+        </Grid>
+
+        <Grid x:Name="GridKondukter" HorizontalAlignment="Left" Height="144" Margin="40,426,0,0" VerticalAlignment="Top" Width="391" Visibility="Collapsed">
+            <Label Content="Broj Dozvole:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="tbBrDozKond" HorizontalAlignment="Left" Height="23" Margin="92,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Label  x:Name="errorDozKond" Foreground="Red" FontSize="11" HorizontalAlignment="Left" Margin="92,36,0,0" VerticalAlignment="Top"/>
+        </Grid>
+
+        <Grid x:Name="GridKontroler" HorizontalAlignment="Left" Height="144" Margin="40,426,0,0" VerticalAlignment="Top" Width="391" Visibility="Collapsed">
+            <Label Content="Broj Dozvole:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="tbBrDozKont" HorizontalAlignment="Left" Height="23" Margin="92,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Label  x:Name="errorDozKont" Foreground="Red" FontSize="11" HorizontalAlignment="Left" Margin="92,36,0,0" VerticalAlignment="Top"/>
+        </Grid>
+
+    </Grid>
+</Window>

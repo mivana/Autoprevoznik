@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AutoprevoznikDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Autobus">
+    <Key>
+      <PropertyRef Name="reg" />
+    </Key>
+    <Property Name="reg" Type="int" Nullable="false" />
+    <Property Name="model" Type="varchar" MaxLength="100" />
+    <Property Name="br_mesta" Type="int" />
+    <Property Name="dat_reg" Type="date" />
+  </EntityType>
+  <EntityType Name="Garaza">
+    <Key>
+      <PropertyRef Name="id_gar" />
+    </Key>
+    <Property Name="id_gar" Type="int" Nullable="false" />
+    <Property Name="Naselje_ime_naselja" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="kapacitet" Type="int" />
+  </EntityType>
+  <EntityType Name="Karta">
+    <Key>
+      <PropertyRef Name="Putnik_mbr_p" />
+      <PropertyRef Name="Putuje_Autobus_reg" />
+      <PropertyRef Name="Putuje_Linija_br_linije" />
+      <PropertyRef Name="Putuje_dv_polaska" />
+    </Key>
+    <Property Name="sediste" Type="int" />
+    <Property Name="datum_kup" Type="date" />
+    <Property Name="cena" Type="decimal" Precision="18" Scale="0" />
+    <Property Name="relacija" Type="varchar" MaxLength="100" />
+    <Property Name="Putnik_mbr_p" Type="int" Nullable="false" />
+    <Property Name="Putuje_Autobus_reg" Type="int" Nullable="false" />
+    <Property Name="Putuje_Linija_br_linije" Type="int" Nullable="false" />
+    <Property Name="Putuje_dv_polaska" Type="datetime2" Precision="7" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Kondukter">
+    <Key>
+      <PropertyRef Name="mbr_r" />
+    </Key>
+    <Property Name="mbr_r" Type="int" Nullable="false" />
+    <Property Name="br_doz_kond" Type="int" />
+  </EntityType>
+  <EntityType Name="Kontroler">
+    <Key>
+      <PropertyRef Name="mbr_r" />
+    </Key>
+    <Property Name="mbr_r" Type="int" Nullable="false" />
+    <Property Name="br_doz_kont" Type="int" />
+  </EntityType>
+  <EntityType Name="Linija">
+    <Key>
+      <PropertyRef Name="br_linije" />
+    </Key>
+    <Property Name="br_linije" Type="int" Nullable="false" />
+    <Property Name="ime_linije" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Naselje">
+    <Key>
+      <PropertyRef Name="ime_naselja" />
+    </Key>
+    <Property Name="ime_naselja" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Prodaje">
+    <Key>
+      <PropertyRef Name="Kondukter_mbr_r" />
+      <PropertyRef Name="Karta_mbr_p" />
+      <PropertyRef Name="Karta_reg" />
+      <PropertyRef Name="Karta_br_linije" />
+      <PropertyRef Name="Karta_dv_polaska" />
+    </Key>
+    <Property Name="Kondukter_mbr_r" Type="int" Nullable="false" />
+    <Property Name="Karta_mbr_p" Type="int" Nullable="false" />
+    <Property Name="Karta_reg" Type="int" Nullable="false" />
+    <Property Name="Karta_br_linije" Type="int" Nullable="false" />
+    <Property Name="Karta_dv_polaska" Type="datetime2" Precision="7" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Proverava">
+    <Key>
+      <PropertyRef Name="Kontroler_mbr_r" />
+      <PropertyRef Name="Karta_mbr_p" />
+      <PropertyRef Name="Karta_reg" />
+      <PropertyRef Name="Karta_br_linije" />
+      <PropertyRef Name="Karta_dv_polaska" />
+    </Key>
+    <Property Name="Kontroler_mbr_r" Type="int" Nullable="false" />
+    <Property Name="Karta_mbr_p" Type="int" Nullable="false" />
+    <Property Name="Karta_reg" Type="int" Nullable="false" />
+    <Property Name="Karta_br_linije" Type="int" Nullable="false" />
+    <Property Name="Karta_dv_polaska" Type="datetime2" Precision="7" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Putnik">
+    <Key>
+      <PropertyRef Name="mbr_p" />
+    </Key>
+    <Property Name="mbr_p" Type="int" Nullable="false" />
+    <Property Name="ime_p" Type="varchar" MaxLength="20" />
+    <Property Name="prz_p" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Putuje">
+    <Key>
+      <PropertyRef Name="Autobus_reg" />
+      <PropertyRef Name="Linija_br_linije" />
+      <PropertyRef Name="dv_polaska" />
+    </Key>
+    <Property Name="Autobus_reg" Type="int" Nullable="false" />
+    <Property Name="Linija_br_linije" Type="int" Nullable="false" />
+    <Property Name="dv_polaska" Type="datetime2" Precision="7" Nullable="false" />
+    <Property Name="dv_dolaska" Type="datetime2" Precision="7" />
+  </EntityType>
+  <EntityType Name="Putuje_kroz">
+    <Key>
+      <PropertyRef Name="Naselje_ime_naselja" />
+      <PropertyRef Name="Linija_br_linije" />
+    </Key>
+    <Property Name="Naselje_ime_naselja" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Linija_br_linije" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Radnik">
+    <Key>
+      <PropertyRef Name="mbr_r" />
+    </Key>
+    <Property Name="mbr_r" Type="int" Nullable="false" />
+    <Property Name="ime_r" Type="varchar" MaxLength="20" />
+    <Property Name="prz_r" Type="varchar" MaxLength="20" />
+    <Property Name="god_r" Type="date" />
+    <Property Name="adresa" Type="varchar" MaxLength="50" />
+    <Property Name="br_tel" Type="int" />
+    <Property Name="ugovor_sklopljen" Type="date" Nullable="false" />
+    <Property Name="ugovor_istekao" Type="date" />
+  </EntityType>
+  <EntityType Name="Stanica">
+    <Key>
+      <PropertyRef Name="id_st" />
+    </Key>
+    <Property Name="id_st" Type="int" Nullable="false" />
+    <Property Name="Naselje_ime_naselja" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Vozac">
+    <Key>
+      <PropertyRef Name="mbr_r" />
+    </Key>
+    <Property Name="mbr_r" Type="int" Nullable="false" />
+    <Property Name="br_doz_voz" Type="int" />
+    <Property Name="kategorije" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="Vozi">
+    <Key>
+      <PropertyRef Name="Vozac_mbr_r" />
+      <PropertyRef Name="Autobus_reg" />
+    </Key>
+    <Property Name="Vozac_mbr_r" Type="int" Nullable="false" />
+    <Property Name="Autobus_reg" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_ASS_10">
+    <End Role="Naselje" Type="Self.Naselje" Multiplicity="1" />
+    <End Role="Putuje_kroz" Type="Self.Putuje_kroz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Naselje">
+        <PropertyRef Name="ime_naselja" />
+      </Principal>
+      <Dependent Role="Putuje_kroz">
+        <PropertyRef Name="Naselje_ime_naselja" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ASS_11">
+    <End Role="Linija" Type="Self.Linija" Multiplicity="1" />
+    <End Role="Putuje_kroz" Type="Self.Putuje_kroz" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Linija">
+        <PropertyRef Name="br_linije" />
+      </Principal>
+      <Dependent Role="Putuje_kroz">
+        <PropertyRef Name="Linija_br_linije" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ASS_14">
+    <End Role="Vozac" Type="Self.Vozac" Multiplicity="1" />
+    <End Role="Vozi" Type="Self.Vozi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vozac">
+        <PropertyRef Name="mbr_r" />
+      </Principal>
+      <Dependent Role="Vozi">
+        <PropertyRef Name="Vozac_mbr_r" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ASS_15">
+    <End Role="Autobus" Type="Self.Autobus" Multiplicity="1" />
+    <End Role="Vozi" Type="Self.Vozi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Autobus">
+        <PropertyRef Name="reg" />
+      </Principal>
+      <Dependent Role="Vozi">
+        <PropertyRef Name="Autobus_reg" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ASS_5">
+    <End Role="Kondukter" Type="Self.Kondukter" Multiplicity="1" />
+    <End Role="Prodaje" Type="Self.Prodaje" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kondukter">
+        <PropertyRef Name="mbr_r" />
+      </Principal>
+      <Dependent Role="Prodaje">
+        <PropertyRef Name="Kondukter_mbr_r" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ASS_6">
+    <End Role="Karta" Type="Self.Karta" Multiplicity="1" />
+    <End Role="Prodaje" Type="Self.Prodaje" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Karta">
+        <PropertyRef Name="Putnik_mbr_p" />
+        <PropertyRef Name="Putuje_Autobus_reg" />
+        <PropertyRef Name="Putuje_Linija_br_linije" />
+        <PropertyRef Name="Putuje_dv_polaska" />
+      </Principal>
+      <Dependent Role="Prodaje">
+        <PropertyRef Name="Karta_mbr_p" />
+        <PropertyRef Name="Karta_reg" />
+        <PropertyRef Name="Karta_br_linije" />
+        <PropertyRef Name="Karta_dv_polaska" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ASS_7">
+    <End Role="Kontroler" Type="Self.Kontroler" Multiplicity="1" />
+    <End Role="Proverava" Type="Self.Proverava" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kontroler">
+        <PropertyRef Name="mbr_r" />
+      </Principal>
+      <Dependent Role="Proverava">
+        <PropertyRef Name="Kontroler_mbr_r" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ASS_8">
+    <End Role="Karta" Type="Self.Karta" Multiplicity="1" />
+    <End Role="Proverava" Type="Self.Proverava" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Karta">
+        <PropertyRef Name="Putnik_mbr_p" />
+        <PropertyRef Name="Putuje_Autobus_reg" />
+        <PropertyRef Name="Putuje_Linija_br_linije" />
+        <PropertyRef Name="Putuje_dv_polaska" />
+      </Principal>
+      <Dependent Role="Proverava">
+        <PropertyRef Name="Karta_mbr_p" />
+        <PropertyRef Name="Karta_reg" />
+        <PropertyRef Name="Karta_br_linije" />
+        <PropertyRef Name="Karta_dv_polaska" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Garaza_Naselje_FK">
+    <End Role="Naselje" Type="Self.Naselje" Multiplicity="1" />
+    <End Role="Garaza" Type="Self.Garaza" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Naselje">
+        <PropertyRef Name="ime_naselja" />
+      </Principal>
+      <Dependent Role="Garaza">
+        <PropertyRef Name="Naselje_ime_naselja" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Karta_Putnik_FK">
+    <End Role="Putnik" Type="Self.Putnik" Multiplicity="1" />
+    <End Role="Karta" Type="Self.Karta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Putnik">
+        <PropertyRef Name="mbr_p" />
+      </Principal>
+      <Dependent Role="Karta">
+        <PropertyRef Name="Putnik_mbr_p" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Karta_Putuje_FK">
+    <End Role="Putuje" Type="Self.Putuje" Multiplicity="1" />
+    <End Role="Karta" Type="Self.Karta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Putuje">
+        <PropertyRef Name="Autobus_reg" />
+        <PropertyRef Name="Linija_br_linije" />
+        <PropertyRef Name="dv_polaska" />
+      </Principal>
+      <Dependent Role="Karta">
+        <PropertyRef Name="Putuje_Autobus_reg" />
+        <PropertyRef Name="Putuje_Linija_br_linije" />
+        <PropertyRef Name="Putuje_dv_polaska" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Kondukter_Radnik_FK">
+    <End Role="Radnik" Type="Self.Radnik" Multiplicity="1" />
+    <End Role="Kondukter" Type="Self.Kondukter" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Radnik">
+        <PropertyRef Name="mbr_r" />
+      </Principal>
+      <Dependent Role="Kondukter">
+        <PropertyRef Name="mbr_r" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Kontroler_Radnik_FK">
+    <End Role="Radnik" Type="Self.Radnik" Multiplicity="1" />
+    <End Role="Kontroler" Type="Self.Kontroler" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Radnik">
+        <PropertyRef Name="mbr_r" />
+      </Principal>
+      <Dependent Role="Kontroler">
+        <PropertyRef Name="mbr_r" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Putuje_Autobus_FK">
+    <End Role="Autobus" Type="Self.Autobus" Multiplicity="1" />
+    <End Role="Putuje" Type="Self.Putuje" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Autobus">
+        <PropertyRef Name="reg" />
+      </Principal>
+      <Dependent Role="Putuje">
+        <PropertyRef Name="Autobus_reg" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Putuje_Linija_FK">
+    <End Role="Linija" Type="Self.Linija" Multiplicity="1" />
+    <End Role="Putuje" Type="Self.Putuje" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Linija">
+        <PropertyRef Name="br_linije" />
+      </Principal>
+      <Dependent Role="Putuje">
+        <PropertyRef Name="Linija_br_linije" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Stanica_Naselje_FK">
+    <End Role="Naselje" Type="Self.Naselje" Multiplicity="1" />
+    <End Role="Stanica" Type="Self.Stanica" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Naselje">
+        <PropertyRef Name="ime_naselja" />
+      </Principal>
+      <Dependent Role="Stanica">
+        <PropertyRef Name="Naselje_ime_naselja" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Vozac_Radnik_FK">
+    <End Role="Radnik" Type="Self.Radnik" Multiplicity="1" />
+    <End Role="Vozac" Type="Self.Vozac" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Radnik">
+        <PropertyRef Name="mbr_r" />
+      </Principal>
+      <Dependent Role="Vozac">
+        <PropertyRef Name="mbr_r" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AutoprevoznikDBModelStoreContainer">
+    <EntitySet Name="Autobus" EntityType="Self.Autobus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Garaza" EntityType="Self.Garaza" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Karta" EntityType="Self.Karta" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kondukter" EntityType="Self.Kondukter" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kontroler" EntityType="Self.Kontroler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Linija" EntityType="Self.Linija" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Naselje" EntityType="Self.Naselje" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Prodaje" EntityType="Self.Prodaje" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Proverava" EntityType="Self.Proverava" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Putnik" EntityType="Self.Putnik" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Putuje" EntityType="Self.Putuje" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Putuje_kroz" EntityType="Self.Putuje_kroz" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Radnik" EntityType="Self.Radnik" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Stanica" EntityType="Self.Stanica" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vozac" EntityType="Self.Vozac" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vozi" EntityType="Self.Vozi" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_ASS_10" Association="Self.FK_ASS_10">
+      <End Role="Naselje" EntitySet="Naselje" />
+      <End Role="Putuje_kroz" EntitySet="Putuje_kroz" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ASS_11" Association="Self.FK_ASS_11">
+      <End Role="Linija" EntitySet="Linija" />
+      <End Role="Putuje_kroz" EntitySet="Putuje_kroz" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ASS_14" Association="Self.FK_ASS_14">
+      <End Role="Vozac" EntitySet="Vozac" />
+      <End Role="Vozi" EntitySet="Vozi" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ASS_15" Association="Self.FK_ASS_15">
+      <End Role="Autobus" EntitySet="Autobus" />
+      <End Role="Vozi" EntitySet="Vozi" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ASS_5" Association="Self.FK_ASS_5">
+      <End Role="Kondukter" EntitySet="Kondukter" />
+      <End Role="Prodaje" EntitySet="Prodaje" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ASS_6" Association="Self.FK_ASS_6">
+      <End Role="Karta" EntitySet="Karta" />
+      <End Role="Prodaje" EntitySet="Prodaje" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ASS_7" Association="Self.FK_ASS_7">
+      <End Role="Kontroler" EntitySet="Kontroler" />
+      <End Role="Proverava" EntitySet="Proverava" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ASS_8" Association="Self.FK_ASS_8">
+      <End Role="Karta" EntitySet="Karta" />
+      <End Role="Proverava" EntitySet="Proverava" />
+    </AssociationSet>
+    <AssociationSet Name="Garaza_Naselje_FK" Association="Self.Garaza_Naselje_FK">
+      <End Role="Naselje" EntitySet="Naselje" />
+      <End Role="Garaza" EntitySet="Garaza" />
+    </AssociationSet>
+    <AssociationSet Name="Karta_Putnik_FK" Association="Self.Karta_Putnik_FK">
+      <End Role="Putnik" EntitySet="Putnik" />
+      <End Role="Karta" EntitySet="Karta" />
+    </AssociationSet>
+    <AssociationSet Name="Karta_Putuje_FK" Association="Self.Karta_Putuje_FK">
+      <End Role="Putuje" EntitySet="Putuje" />
+      <End Role="Karta" EntitySet="Karta" />
+    </AssociationSet>
+    <AssociationSet Name="Kondukter_Radnik_FK" Association="Self.Kondukter_Radnik_FK">
+      <End Role="Radnik" EntitySet="Radnik" />
+      <End Role="Kondukter" EntitySet="Kondukter" />
+    </AssociationSet>
+    <AssociationSet Name="Kontroler_Radnik_FK" Association="Self.Kontroler_Radnik_FK">
+      <End Role="Radnik" EntitySet="Radnik" />
+      <End Role="Kontroler" EntitySet="Kontroler" />
+    </AssociationSet>
+    <AssociationSet Name="Putuje_Autobus_FK" Association="Self.Putuje_Autobus_FK">
+      <End Role="Autobus" EntitySet="Autobus" />
+      <End Role="Putuje" EntitySet="Putuje" />
+    </AssociationSet>
+    <AssociationSet Name="Putuje_Linija_FK" Association="Self.Putuje_Linija_FK">
+      <End Role="Linija" EntitySet="Linija" />
+      <End Role="Putuje" EntitySet="Putuje" />
+    </AssociationSet>
+    <AssociationSet Name="Stanica_Naselje_FK" Association="Self.Stanica_Naselje_FK">
+      <End Role="Naselje" EntitySet="Naselje" />
+      <End Role="Stanica" EntitySet="Stanica" />
+    </AssociationSet>
+    <AssociationSet Name="Vozac_Radnik_FK" Association="Self.Vozac_Radnik_FK">
+      <End Role="Radnik" EntitySet="Radnik" />
+      <End Role="Vozac" EntitySet="Vozac" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

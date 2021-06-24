@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d21863bafa6043cb840d4232e14a34d3" Name="Diagram1">
+        <EntityTypeShape EntityType="AutoprevoznikDBModel.Autobu" Width="1.5" PointX="5.25" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoprevoznikDBModel.Garaza" Width="1.5" PointX="5.25" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoprevoznikDBModel.Karta" Width="1.5" PointX="5.25" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoprevoznikDBModel.Kondukter" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoprevoznikDBModel.Kontroler" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoprevoznikDBModel.Linija" Width="1.5" PointX="5.25" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoprevoznikDBModel.Naselje" Width="1.5" PointX="3" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoprevoznikDBModel.Putnik" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoprevoznikDBModel.Putuje" Width="1.5" PointX="7.5" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoprevoznikDBModel.Radnik" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoprevoznikDBModel.Stanica" Width="1.5" PointX="5.25" PointY="17.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutoprevoznikDBModel.Vozac" Width="1.5" PointX="3" PointY="8.875" IsExpanded="true" />
+        <AssociationConnector Association="AutoprevoznikDBModel.Putuje_Autobus_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoprevoznikDBModel.Garaza_Naselje_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoprevoznikDBModel.Karta_Putnik_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoprevoznikDBModel.Karta_Putuje_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoprevoznikDBModel.Kondukter_Radnik_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoprevoznikDBModel.Kontroler_Radnik_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoprevoznikDBModel.Putuje_Linija_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoprevoznikDBModel.Stanica_Naselje_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoprevoznikDBModel.Vozac_Radnik_FK" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoprevoznikDBModel.Prodaje" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoprevoznikDBModel.Proverava" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoprevoznikDBModel.Putuje_kroz" ManuallyRouted="false" />
+        <AssociationConnector Association="AutoprevoznikDBModel.Vozi" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

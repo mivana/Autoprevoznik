@@ -1,0 +1,8 @@
+ALTER TABLE Stanica ADD CONSTRAINT Stanica_PK PRIMARY KEY CLUSTERED (id_st)
+WITH
+  (
+    ALLOW_PAGE_LOCKS = ON ,
+    ALLOW_ROW_LOCKS  = ON
+  )
+  ON "default"
+GO

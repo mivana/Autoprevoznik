@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="karta_za_linijuv1" directorySegmentName="seg_0" id="C511AE4D-E01D-1864-BAB0-D2DB62A3C382">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 14:42:44 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="849B9710-5B9A-4374-863C-631892641DC6" value="true"/>
+</engineerTo>
+<sourcePk>38E2F64F-5EA7-799A-7742-3E9A023B37D8</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EA45C295-D4C2-7203-94D1-F93164C0121E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>96CEDFBE-4B71-D9D3-5EA2-7B2C03453E3D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

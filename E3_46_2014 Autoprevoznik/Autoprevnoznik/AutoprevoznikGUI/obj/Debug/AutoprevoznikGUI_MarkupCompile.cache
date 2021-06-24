@@ -1,0 +1,20 @@
+﻿AutoprevoznikGUI
+
+
+winexe
+C#
+.cs
+D:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\
+AutoprevoznikGUI
+none
+false
+DEBUG;TRACE
+D:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\App.xaml
+28-37486552
+2347488642
+76-789564684
+201163803510
+MainWindow.xaml;View\AEAutobusView.xaml;View\AEGarazaView.xaml;View\AEKartaView.xaml;View\AELinijaView.xaml;View\AENaseljeView.xaml;View\AEPutnikView.xaml;View\AEPutujeView.xaml;View\AERadnikView.xaml;View\AEStanicaView.xaml;View\AEVozacView.xaml;View\AEVoziView.xaml;View\AutobusView.xaml;View\GarazaView.xaml;View\KartaView.xaml;View\KondukterProdajeView.xaml;View\KondukterView.xaml;View\KontrolerProveravaView.xaml;View\KontrolerView.xaml;View\LinijaView.xaml;View\NaseljeView.xaml;View\PutnikView.xaml;View\PutujeView.xaml;View\RadnikView.xaml;View\ResultView.xaml;View\StanicaView.xaml;View\TabeleView.xaml;View\VozacView.xaml;
+
+False
+

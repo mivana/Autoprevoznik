@@ -1,0 +1,1 @@
+ALTER TABLE Putnik ADD CONSTRAINT Putnik_PK PRIMARY KEY ( mbr_p ) ;

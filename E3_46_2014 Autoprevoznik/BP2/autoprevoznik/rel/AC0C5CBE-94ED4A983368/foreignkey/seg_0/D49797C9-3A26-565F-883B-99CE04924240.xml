@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D49797C9-3A26-565F-883B-99CE04924240" containerWithKeyObject="05C77030-83B0-7EBB-66AE-091FA8DD3FB8" localFKIndex="99F3587D-8C74-43A8-0BC2-8CFA232FE319" name="Karta_Putnik_FK">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:59 UTC</createdTime>
+<generatorID>9266D8DE-4292-DFE4-AF0B-0831720815D4</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>59DF6D0C-0A04-4C99-CD88-F3A7B27BE1E3</referredTableID>
+<keyObject>F427063E-A25B-DEA4-F669-AD0553CC4129</keyObject>
+<referredKeyID>F427063E-A25B-DEA4-F669-AD0553CC4129</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

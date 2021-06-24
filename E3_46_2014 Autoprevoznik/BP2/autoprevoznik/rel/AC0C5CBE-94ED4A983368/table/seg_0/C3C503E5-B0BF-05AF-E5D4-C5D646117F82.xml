@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C3C503E5-B0BF-05AF-E5D4-C5D646117F82" name="Putuje">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>EA45C295-D4C2-7203-94D1-F93164C0121E</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Autobus_reg" id="ED0B9A0E-95E1-45C9-E3C6-0D568D500224">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>9A801376-A057-901B-5827-C62EA47AADD0</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="741A9DF4-FF06-6669-1EF1-FA53E64BF27A" referredColumn="0C4E5068-0B9C-1AB7-0F73-80ADDD788ECF"/>
+</associations>
+</Column>
+<Column name="Linija_br_linije" id="6F996931-4F01-5E93-2476-6C66F4724102">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>E007735F-7313-67C8-2D3F-7839B5601DD5</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C19F2DF-0B55-4E6D-F10C-AF587F300F1B" referredColumn="6C97037A-36D0-BF5A-D134-38A15E0D8355"/>
+</associations>
+</Column>
+<Column name="dv_polaska" id="13CAC401-1C7A-C81A-EE13-F66C18B6FB6D">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>1B01F5D7-DF25-A1EC-D53C-4C5CF1D6FABD</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dv_dolaska" id="CD31A22A-0ECC-2A0D-11C4-2344F614B14D">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>9B4357CB-ED17-EB81-84FB-E5FF8F57DC5B</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3867F86-3B5E-F677-CBCD-0CBDEC362FCD" name="Putuje_PK">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>38E2F64F-5EA7-799A-7742-3E9A023B37D8</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED0B9A0E-95E1-45C9-E3C6-0D568D500224"/>
+<colUsage columnID="6F996931-4F01-5E93-2476-6C66F4724102"/>
+<colUsage columnID="13CAC401-1C7A-C81A-EE13-F66C18B6FB6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="766AB816-F628-9296-DDEF-229B2E25AEBA" name="Putuje_Autobus_FK">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:59 UTC</createdTime>
+<generatorID>213E81AC-390C-2A08-FBBE-7D8757B218AD</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED0B9A0E-95E1-45C9-E3C6-0D568D500224"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDE6EB0F-E541-F214-D98E-BC04CF4BA240" name="Putuje_Linija_FK">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:59 UTC</createdTime>
+<generatorID>E93027C6-1825-71A9-A2F1-B093E6CE87C3</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F996931-4F01-5E93-2476-6C66F4724102"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

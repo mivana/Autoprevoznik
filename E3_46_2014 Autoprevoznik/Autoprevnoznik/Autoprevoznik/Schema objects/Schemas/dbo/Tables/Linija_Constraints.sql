@@ -1,0 +1,1 @@
+ALTER TABLE Linija ADD CONSTRAINT Linija_PK PRIMARY KEY ( br_linije ) ;

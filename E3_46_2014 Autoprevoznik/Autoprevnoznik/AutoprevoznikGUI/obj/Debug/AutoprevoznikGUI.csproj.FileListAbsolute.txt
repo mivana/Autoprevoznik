@@ -1,0 +1,366 @@
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\AutoprevoznikGUI.exe.config
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\AutoprevoznikGUI.exe
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\AutoprevoznikGUI.pdb
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\MainWindow.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\App.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI_MarkupCompile.cache
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI_MarkupCompile.lref
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\MainWindow.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.g.resources
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.Properties.Resources.resources
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.csproj.GenerateResource.cache
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.csproj.CoreCompileInputs.cache
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.exe
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.pdb
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\EntityFramework.dll
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\EntityFramework.SqlServer.dll
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\EntityFramework.xml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\EntityFramework.SqlServer.xml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI_Content.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.csproj.CopyComplete
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEAutobusView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AutobusView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEAutobusView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AutobusView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.csprojAssemblyReference.cache
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEVozacView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\VozacView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEVozacView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\VozacView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEPutnikView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\PutnikView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEPutnikView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\PutnikView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KartaView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KartaView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEKartaView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEKartaView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AENaseljeView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\NaseljeView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AENaseljeView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\NaseljeView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AELinijaView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\LinijaView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AELinijaView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\LinijaView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEGarazaView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\GarazaView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEGarazaView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\GarazaView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEStanicaView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\StanicaView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEStanicaView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\StanicaView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AERadnikView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\RadnikView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AERadnikView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\RadnikView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEPutujeView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\PutujeView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEPutujeView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\PutujeView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KondukterView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KontrolerView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KondukterView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KontrolerView.baml
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEVoziView.g.cs
+D:\Fakultet\Projekat\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEVoziView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\AutoprevoznikGUI.exe.config
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\AutoprevoznikGUI.exe
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\AutoprevoznikGUI.pdb
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\EntityFramework.dll
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\EntityFramework.SqlServer.dll
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\EntityFramework.xml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\EntityFramework.SqlServer.xml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.csprojAssemblyReference.cache
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\MainWindow.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEAutobusView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEGarazaView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEKartaView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AELinijaView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AENaseljeView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEPutnikView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEPutujeView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AERadnikView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEStanicaView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEVozacView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEVoziView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AutobusView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\GarazaView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KartaView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KondukterView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KontrolerView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\LinijaView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\NaseljeView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\PutnikView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\PutujeView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\RadnikView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\StanicaView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\VozacView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\App.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI_Content.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI_MarkupCompile.cache
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI_MarkupCompile.lref
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\MainWindow.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEAutobusView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEGarazaView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEKartaView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AELinijaView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AENaseljeView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEPutnikView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEPutujeView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AERadnikView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEStanicaView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEVozacView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEVoziView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AutobusView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\GarazaView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KartaView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KondukterView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KontrolerView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\LinijaView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\NaseljeView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\PutnikView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\PutujeView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\RadnikView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\StanicaView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\VozacView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.g.resources
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.Properties.Resources.resources
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.csproj.GenerateResource.cache
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.csproj.CoreCompileInputs.cache
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.csproj.CopyComplete
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.exe
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.pdb
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\ResultView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\ResultView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\AutoprevoznikGUI.exe.config
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\AutoprevoznikGUI.exe
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\AutoprevoznikGUI.pdb
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\EntityFramework.dll
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\EntityFramework.SqlServer.dll
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\EntityFramework.xml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\EntityFramework.SqlServer.xml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.csprojAssemblyReference.cache
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\MainWindow.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEAutobusView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEGarazaView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEKartaView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AELinijaView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AENaseljeView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEPutnikView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEPutujeView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AERadnikView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEStanicaView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEVozacView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEVoziView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AutobusView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\GarazaView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KartaView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KondukterView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KontrolerView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\LinijaView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\NaseljeView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\PutnikView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\PutujeView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\RadnikView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\ResultView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\StanicaView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\VozacView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\App.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI_Content.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI_MarkupCompile.cache
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI_MarkupCompile.lref
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\MainWindow.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEAutobusView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEGarazaView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEKartaView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AELinijaView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AENaseljeView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEPutnikView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEPutujeView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AERadnikView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEStanicaView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEVozacView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEVoziView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AutobusView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\GarazaView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KartaView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KondukterView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KontrolerView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\LinijaView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\NaseljeView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\PutnikView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\PutujeView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\RadnikView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\ResultView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\StanicaView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\VozacView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.g.resources
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.Properties.Resources.resources
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.csproj.GenerateResource.cache
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.csproj.CoreCompileInputs.cache
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.csproj.CopyComplete
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.exe
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.pdb
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KondukterProdajeView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KondukterProdajeView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KontrolerProveravaView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KontrolerProveravaView.baml
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\TabeleView.g.cs
+D:\Fakultet\Projekat\!\Autoprevnoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\TabeleView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\AutoprevoznikGUI.exe.config
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\AutoprevoznikGUI.exe
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\AutoprevoznikGUI.pdb
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\EntityFramework.dll
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\EntityFramework.SqlServer.dll
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\EntityFramework.xml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\EntityFramework.SqlServer.xml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.csprojAssemblyReference.cache
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\MainWindow.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEAutobusView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEGarazaView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEKartaView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AELinijaView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AENaseljeView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEPutnikView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEPutujeView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AERadnikView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEStanicaView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEVozacView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEVoziView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AutobusView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\GarazaView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KartaView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KondukterProdajeView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KondukterView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KontrolerProveravaView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KontrolerView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\LinijaView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\NaseljeView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\PutnikView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\PutujeView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\RadnikView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\ResultView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\StanicaView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\TabeleView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\VozacView.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\App.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI_Content.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI_MarkupCompile.cache
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI_MarkupCompile.lref
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\MainWindow.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEAutobusView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEGarazaView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEKartaView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AELinijaView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AENaseljeView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEPutnikView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEPutujeView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AERadnikView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEStanicaView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEVozacView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEVoziView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AutobusView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\GarazaView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KartaView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KondukterProdajeView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KondukterView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KontrolerProveravaView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KontrolerView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\LinijaView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\NaseljeView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\PutnikView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\PutujeView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\RadnikView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\ResultView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\StanicaView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\TabeleView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\VozacView.baml
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.g.resources
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.Properties.Resources.resources
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.csproj.GenerateResource.cache
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.csproj.CoreCompileInputs.cache
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.csproj.CopyComplete
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.exe
+D:\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.pdb
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\AutoprevoznikGUI.exe.config
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\AutoprevoznikGUI.exe
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\AutoprevoznikGUI.pdb
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\EntityFramework.dll
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\EntityFramework.SqlServer.dll
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\EntityFramework.xml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\bin\Debug\EntityFramework.SqlServer.xml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.csprojAssemblyReference.cache
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\MainWindow.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEAutobusView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEGarazaView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEKartaView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AELinijaView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AENaseljeView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEPutnikView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEPutujeView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AERadnikView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEStanicaView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEVozacView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEVoziView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AutobusView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\GarazaView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KartaView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KondukterProdajeView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KondukterView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KontrolerProveravaView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KontrolerView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\LinijaView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\NaseljeView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\PutnikView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\PutujeView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\RadnikView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\ResultView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\StanicaView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\TabeleView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\VozacView.baml
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\MainWindow.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEAutobusView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEGarazaView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEKartaView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AELinijaView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AENaseljeView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEPutnikView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEPutujeView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AERadnikView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEStanicaView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEVozacView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AEVoziView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\AutobusView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\GarazaView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KartaView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KondukterProdajeView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KondukterView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KontrolerProveravaView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\KontrolerView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\LinijaView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\NaseljeView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\PutnikView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\PutujeView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\RadnikView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\ResultView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\StanicaView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\TabeleView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\View\VozacView.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\App.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI_Content.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI_MarkupCompile.cache
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI_MarkupCompile.lref
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.g.resources
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.Properties.Resources.resources
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.csproj.GenerateResource.cache
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.csproj.CoreCompileInputs.cache
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.csproj.CopyComplete
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.exe
+d:\Fakultet\Gotovi Projekti\E3_46_2014 Autoprevoznik\Autoprevnoznik\AutoprevoznikGUI\obj\Debug\AutoprevoznikGUI.pdb

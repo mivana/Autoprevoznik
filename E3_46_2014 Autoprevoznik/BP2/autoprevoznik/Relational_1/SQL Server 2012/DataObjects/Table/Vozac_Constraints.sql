@@ -1,0 +1,8 @@
+ALTER TABLE Vozac ADD CONSTRAINT Vozac_PK PRIMARY KEY CLUSTERED (mbr_r)
+WITH
+  (
+    ALLOW_PAGE_LOCKS = ON ,
+    ALLOW_ROW_LOCKS  = ON
+  )
+  ON "default"
+GO

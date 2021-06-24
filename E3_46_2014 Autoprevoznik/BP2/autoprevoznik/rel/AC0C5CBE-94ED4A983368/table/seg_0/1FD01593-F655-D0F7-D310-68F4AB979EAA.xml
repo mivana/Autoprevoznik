@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FD01593-F655-D0F7-D310-68F4AB979EAA" name="Stanica">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>F30A5B89-6C42-7D78-D6FE-C1A09734A269</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_st" id="BA69A198-210C-C424-92CE-D3EF97A7DBB7">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>B316715F-2FDB-B7C2-A697-2495D70FCCA6</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naselje_ime_naselja" id="45AC08CE-051D-C37F-2B97-FDD35178B167">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>7FA0C21F-91AE-EF15-A702-F9ACFD407066</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="814B8D7B-ABF5-28B7-330B-C5C6A7B9FA45" referredColumn="82283AF2-E212-0FD8-767E-01ADE11B4D6B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5466156-5A06-06FA-621B-199B4BB83E0B" name="Stanica_PK">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>7D22F9EA-65AA-C5EA-882A-3CAC681FDA16</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA69A198-210C-C424-92CE-D3EF97A7DBB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C23DF4E7-3AD7-6FBE-6C32-27DF2E53E5AD" name="Stanica_Naselje_FK">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:59 UTC</createdTime>
+<generatorID>AD7F46B4-2DA7-4EF8-AFA6-B58CB7FC9A2F</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="45AC08CE-051D-C37F-2B97-FDD35178B167"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

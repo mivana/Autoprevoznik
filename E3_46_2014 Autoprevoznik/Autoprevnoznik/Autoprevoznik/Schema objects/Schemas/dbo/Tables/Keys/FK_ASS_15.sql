@@ -1,0 +1,1 @@
+ALTER TABLE Vozi ADD CONSTRAINT FK_ASS_15 FOREIGN KEY ( Autobus_reg ) REFERENCES Autobus ( reg ) ;

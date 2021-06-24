@@ -1,0 +1,1 @@
+ALTER TABLE Garaza ADD CONSTRAINT Garaza_PK PRIMARY KEY ( id_gar ) ;

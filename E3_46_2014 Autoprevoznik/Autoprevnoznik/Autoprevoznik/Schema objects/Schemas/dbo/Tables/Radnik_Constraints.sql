@@ -1,0 +1,1 @@
+ALTER TABLE Radnik ADD CONSTRAINT Radnik_PK PRIMARY KEY ( mbr_r ) ;

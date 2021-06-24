@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="kupuje" directorySegmentName="seg_0" id="9266D8DE-4292-DFE4-AF0B-0831720815D4">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 14:50:46 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="810774C9-4BFB-B53D-92DF-800E8D91D83D" value="true"/>
+</engineerTo>
+<sourcePk>D6A9B691-B4CE-E5EB-E6D3-8B97DA7FF8F6</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>322E09B1-77CA-3AA1-AEFE-FAA186AD4151</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>96CEDFBE-4B71-D9D3-5EA2-7B2C03453E3D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

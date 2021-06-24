@@ -1,0 +1,32 @@
+﻿<Window x:Class="AutoprevoznikGUI.View.AEStanicaView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoprevoznikGUI.View"
+        mc:Ignorable="d"
+        Title="AEStanicaView" Height="450" Width="430">
+    <Grid>
+        <Label x:Name="label" Content="Dodaj novu stanicu:" HorizontalAlignment="Left" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+        <Label x:Name="label_id_stanice" Content="Id Stanice*" HorizontalAlignment="Left" Margin="55,44,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbIdStanice" HorizontalAlignment="Left" Height="23" Margin="152,47,-39,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="179"/>
+        <Label x:Name="errorId" Foreground="Red" FontSize="11" HorizontalAlignment="Left" Margin="152,66,0,0" VerticalAlignment="Top"/>
+        
+        <Label x:Name="label_ime_naselja" Content="Ime Naselja*" HorizontalAlignment="Left" Margin="55,93,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="CBImeNaselja" HorizontalAlignment="Left" Margin="152,97,0,0" VerticalAlignment="Top" Width="179"/>
+        <Label x:Name="errorNaselje" Foreground="Red" FontSize="11" HorizontalAlignment="Left" Margin="152,119,0,0" VerticalAlignment="Top"/>
+
+        <Button x:Name="button_ok" Command="{Binding AddEditCommand}" HorizontalAlignment="Left" Margin="246,204,0,0" VerticalAlignment="Top" Width="35" Height="35" BorderBrush="Transparent">
+            <Button.Background>
+                <ImageBrush ImageSource="/AutoprevoznikGUI;component/Images/Button_13-128.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_cancel" Command="{Binding CancelCommand}" HorizontalAlignment="Left" Margin="325,204,0,0" VerticalAlignment="Top" Width="35" Height="35" BorderBrush="Transparent">
+            <Button.Background>
+                <ImageBrush ImageSource="/AutoprevoznikGUI;component/Images/Button_12-256.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

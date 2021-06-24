@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31A72084-98F4-D8A4-F2B3-9FFAC3B9C651" name="Putuje_kroz">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:59 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Naselje_ime_naselja" id="6A083D4B-C058-9E1A-4A62-8D52708250E6">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:59 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E2337E5-CBC4-5223-C979-2D9C7DD3344D" referredColumn="82283AF2-E212-0FD8-767E-01ADE11B4D6B"/>
+</associations>
+</Column>
+<Column name="Linija_br_linije" id="BD5A9EA3-4994-B0DD-16B3-D52DC890C68B">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:59 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F906EA6-8C73-C7BC-B694-87212DF5EC6C" referredColumn="6C97037A-36D0-BF5A-D134-38A15E0D8355"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD704B9F-5DC5-B66C-2019-F41797AAFBDC" name="Putuje_kroz_PK">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:59 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A083D4B-C058-9E1A-4A62-8D52708250E6"/>
+<colUsage columnID="BD5A9EA3-4994-B0DD-16B3-D52DC890C68B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="451B3E4E-1E97-1BC6-2ED8-4A2E04F9013E" name="FK_ASS_10">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:59 UTC</createdTime>
+<generatorID>D37B5A65-EE55-E20F-B747-283B076C6FCB</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A083D4B-C058-9E1A-4A62-8D52708250E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEE0331B-535D-B065-E9E9-C6F455AAED20" name="FK_ASS_11">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:59 UTC</createdTime>
+<generatorID>D37B5A65-EE55-E20F-B747-283B076C6FCB</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD5A9EA3-4994-B0DD-16B3-D52DC890C68B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

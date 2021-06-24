@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="584C8706-4D25-E932-A57D-5259ED89F9DE" name="Garaza">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 14:31:37 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="3F3406CB-5EC1-E70B-3EB8-AB1665E5EA5C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_gar" id="4B00B2BB-C151-10D5-CB82-698DD19D2544">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 14:31:44 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="3F3406CB-5EC1-E70B-3EB8-AB1665E5EA5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime_naselja" id="AF244D2C-BAF7-EC9A-34B3-9793F9B5448F">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 16:15:12 UTC</createdTime>
+<generatorID>C8C9AB7E-BBB5-E8DD-6470-24324D2431EF</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="3F3406CB-5EC1-E70B-3EB8-AB1665E5EA5C" value="true"/>
+</engineerTo>
+<referedAttribute>CB9AFBD8-8767-C91E-D935-7B517F836CBC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kapacitet" id="34E74D61-3A0F-0316-E318-B406BF34724C">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-15 13:04:19 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="3F3406CB-5EC1-E70B-3EB8-AB1665E5EA5C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="594AB12D-1FF7-5DDC-194A-FD2190489BD3" name="Garaza PK">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 14:31:53 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="3F3406CB-5EC1-E70B-3EB8-AB1665E5EA5C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4B00B2BB-C151-10D5-CB82-698DD19D2544</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

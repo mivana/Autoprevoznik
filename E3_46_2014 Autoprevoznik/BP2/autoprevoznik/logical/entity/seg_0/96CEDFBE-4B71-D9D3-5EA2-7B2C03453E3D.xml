@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="96CEDFBE-4B71-D9D3-5EA2-7B2C03453E3D" name="Karta">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 14:36:44 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="AC0C5CBE-3B19-53D8-82D8-94ED4A983368" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sediste" id="3EF9E3EC-B098-22A1-5C6D-7227CC3C23D9">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 14:36:56 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="AC0C5CBE-3B19-53D8-82D8-94ED4A983368" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_kup" id="24BCBC04-8DA7-C7DD-FE9C-FD8A825C9CBD">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 14:36:58 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="AC0C5CBE-3B19-53D8-82D8-94ED4A983368" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cena" id="CE9DB7A8-A7BB-8C7E-29F0-6B48D06B9FAD">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 14:36:58 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="AC0C5CBE-3B19-53D8-82D8-94ED4A983368" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="relacija" id="342EF533-D17A-7DDC-2570-B551DCCDF29B">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 14:36:58 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="AC0C5CBE-3B19-53D8-82D8-94ED4A983368" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reg" id="C3ECDD8F-8A5E-4057-A4AD-FCA8FAA36A38">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 15:37:16 UTC</createdTime>
+<generatorID>C511AE4D-E01D-1864-BAB0-D2DB62A3C382</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="AC0C5CBE-3B19-53D8-82D8-94ED4A983368" value="true"/>
+</engineerTo>
+<referedAttribute>9A801376-A057-901B-5827-C62EA47AADD0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="br_linije" id="AA340FCB-40A8-4DA9-B779-EB99D2B0C082">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 15:38:08 UTC</createdTime>
+<generatorID>C511AE4D-E01D-1864-BAB0-D2DB62A3C382</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="AC0C5CBE-3B19-53D8-82D8-94ED4A983368" value="true"/>
+</engineerTo>
+<referedAttribute>E007735F-7313-67C8-2D3F-7839B5601DD5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dv_polaska" id="9A70CC42-363D-4D82-88C0-74149BBE7832">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-15 09:11:44 UTC</createdTime>
+<generatorID>C511AE4D-E01D-1864-BAB0-D2DB62A3C382</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="AC0C5CBE-3B19-53D8-82D8-94ED4A983368" value="true"/>
+</engineerTo>
+<referedAttribute>1B01F5D7-DF25-A1EC-D53C-4C5CF1D6FABD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mbr_p" id="E5B265A3-0639-7BDB-180A-F311975BC0F5">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-16 12:25:10 UTC</createdTime>
+<generatorID>9266D8DE-4292-DFE4-AF0B-0831720815D4</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="AC0C5CBE-3B19-53D8-82D8-94ED4A983368" value="true"/>
+</engineerTo>
+<referedAttribute>E6C10C05-8A14-ACCC-89F4-88EBEDEBFB68</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E218A791-AF21-2A92-C6B4-1B4F04EEDDB4" name="Karta_za_liniju PK">
+<createdBy>e346-2014</createdBy>
+<createdTime>2018-03-16 15:38:22 UTC</createdTime>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<engineerTo>
+<item key="AC0C5CBE-3B19-53D8-82D8-94ED4A983368" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C3ECDD8F-8A5E-4057-A4AD-FCA8FAA36A38</attributeRef>
+<attributeRef>AA340FCB-40A8-4DA9-B779-EB99D2B0C082</attributeRef>
+<attributeRef>9A70CC42-363D-4D82-88C0-74149BBE7832</attributeRef>
+<attributeRef>E5B265A3-0639-7BDB-180A-F311975BC0F5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

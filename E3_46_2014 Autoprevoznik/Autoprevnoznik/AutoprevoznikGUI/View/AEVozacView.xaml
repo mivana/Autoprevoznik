@@ -1,0 +1,31 @@
+﻿<Window x:Class="AutoprevoznikGUI.View.AEVozacView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AutoprevoznikGUI.View"
+        mc:Ignorable="d"
+        Title="AEVozacView" Height="350" Width="400">
+    <Grid>
+        <Label x:Name="label" Content="Dodaj novog vozaca:" HorizontalAlignment="Left" Margin="27,10,0,0" VerticalAlignment="Top"/>
+
+        <Label x:Name="label_br_doz" Content="Broj Dozvole" HorizontalAlignment="Left" Margin="61,53,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="br_doz" HorizontalAlignment="Left" Height="21" Margin="151,57,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+        <Label x:Name="errorDoz" Foreground="Red" FontSize="11" HorizontalAlignment="Left" Margin="155,78,0,0" VerticalAlignment="Top"/>
+
+        <Label x:Name="label_kategorije" Content="Kategorije" HorizontalAlignment="Left" Margin="61,108,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="kategorije" HorizontalAlignment="Left" Height="22" Margin="151,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="201"/>
+
+        <Button x:Name="button_ok" Command="{Binding AddEditCommand}" HorizontalAlignment="Left" Margin="214,166,0,0" VerticalAlignment="Top" Width="35" Height="35" BorderBrush="Transparent">
+            <Button.Background>
+                <ImageBrush ImageSource="/AutoprevoznikGUI;component/Images/Button_13-128.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="button_cancel" Command="{Binding CancelCommand}" HorizontalAlignment="Left" Margin="293,166,0,0" VerticalAlignment="Top" Width="35" Height="35" BorderBrush="Transparent">
+            <Button.Background>
+                <ImageBrush ImageSource="/AutoprevoznikGUI;component/Images/Button_12-256.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Window>

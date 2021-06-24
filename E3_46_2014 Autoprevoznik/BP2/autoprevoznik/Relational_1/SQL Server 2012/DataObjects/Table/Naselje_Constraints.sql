@@ -1,0 +1,9 @@
+ALTER TABLE Naselje ADD CONSTRAINT Naselje_PK PRIMARY KEY CLUSTERED (
+ime_naselja)
+WITH
+  (
+    ALLOW_PAGE_LOCKS = ON ,
+    ALLOW_ROW_LOCKS  = ON
+  )
+  ON "default"
+GO

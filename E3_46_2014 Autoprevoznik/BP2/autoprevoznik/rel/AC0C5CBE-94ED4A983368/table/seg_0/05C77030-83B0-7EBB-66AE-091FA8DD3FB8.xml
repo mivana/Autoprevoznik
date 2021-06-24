@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05C77030-83B0-7EBB-66AE-091FA8DD3FB8" name="Karta">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>96CEDFBE-4B71-D9D3-5EA2-7B2C03453E3D</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sediste" id="04E47052-EF8D-51CB-9073-B620B02F8943">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>3EF9E3EC-B098-22A1-5C6D-7227CC3C23D9</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_kup" id="425A95F0-1040-6F1D-068E-BA6599FB60AE">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>24BCBC04-8DA7-C7DD-FE9C-FD8A825C9CBD</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena" id="F061BAB6-FE97-32B0-3C4E-DD6A2478C68E">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>CE9DB7A8-A7BB-8C7E-29F0-6B48D06B9FAD</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="relacija" id="A1203AB7-C8FA-C0CC-4347-044356087BE8">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>342EF533-D17A-7DDC-2570-B551DCCDF29B</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Putuje_Autobus_reg" id="9CC97C3F-4B40-7ACA-B13C-2249E787F14F">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>C3ECDD8F-8A5E-4057-A4AD-FCA8FAA36A38</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31496EBC-69C3-6D98-9779-1708022D631E" referredColumn="ED0B9A0E-95E1-45C9-E3C6-0D568D500224"/>
+</associations>
+</Column>
+<Column name="Putuje_Linija_br_linije" id="AB6BE2A6-8B9D-43AE-1EC8-49F6F8F2D53A">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>AA340FCB-40A8-4DA9-B779-EB99D2B0C082</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31496EBC-69C3-6D98-9779-1708022D631E" referredColumn="6F996931-4F01-5E93-2476-6C66F4724102"/>
+</associations>
+</Column>
+<Column name="Putuje_dv_polaska" id="B12F3007-2F4C-F665-9B05-FC874FD869CF">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>9A70CC42-363D-4D82-88C0-74149BBE7832</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31496EBC-69C3-6D98-9779-1708022D631E" referredColumn="13CAC401-1C7A-C81A-EE13-F66C18B6FB6D"/>
+</associations>
+</Column>
+<Column name="Putnik_mbr_p" id="E43A8476-4AD3-D882-1235-40D04347930E">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>E5B265A3-0639-7BDB-180A-F311975BC0F5</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D49797C9-3A26-565F-883B-99CE04924240" referredColumn="3F98F7F6-23A5-7019-30C3-FE6718CE21A3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="270FA468-289D-AC3C-F9ED-C8A9F7976CFE" name="Karta_PK">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:58 UTC</createdTime>
+<generatorID>E218A791-AF21-2A92-C6B4-1B4F04EEDDB4</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CC97C3F-4B40-7ACA-B13C-2249E787F14F"/>
+<colUsage columnID="AB6BE2A6-8B9D-43AE-1EC8-49F6F8F2D53A"/>
+<colUsage columnID="B12F3007-2F4C-F665-9B05-FC874FD869CF"/>
+<colUsage columnID="E43A8476-4AD3-D882-1235-40D04347930E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47202731-9DDA-CE6C-0556-D190A77ACBE6" name="Karta_Putuje_FK">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:59 UTC</createdTime>
+<generatorID>C511AE4D-E01D-1864-BAB0-D2DB62A3C382</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CC97C3F-4B40-7ACA-B13C-2249E787F14F"/>
+<colUsage columnID="AB6BE2A6-8B9D-43AE-1EC8-49F6F8F2D53A"/>
+<colUsage columnID="B12F3007-2F4C-F665-9B05-FC874FD869CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99F3587D-8C74-43A8-0BC2-8CFA232FE319" name="Karta_Putnik_FK">
+<createdBy>dellBoj</createdBy>
+<createdTime>2019-05-28 17:21:59 UTC</createdTime>
+<generatorID>9266D8DE-4292-DFE4-AF0B-0831720815D4</generatorID>
+<ownerDesignName>autoprevoznik</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E43A8476-4AD3-D882-1235-40D04347930E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

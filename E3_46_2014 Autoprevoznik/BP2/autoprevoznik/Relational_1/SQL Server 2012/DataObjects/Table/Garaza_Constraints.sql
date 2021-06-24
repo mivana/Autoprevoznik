@@ -1,0 +1,8 @@
+ALTER TABLE Garaza ADD CONSTRAINT Garaza_PK PRIMARY KEY CLUSTERED (id_gar)
+WITH
+  (
+    ALLOW_PAGE_LOCKS = ON ,
+    ALLOW_ROW_LOCKS  = ON
+  )
+  ON "default"
+GO
