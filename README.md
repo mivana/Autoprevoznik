@@ -20,3 +20,5 @@ Primalna svrha projekta je u edukativne svrhe, time je korisnički interfejs re�
 Projekat nam pruža osnovne funkcije rukavanja sa bazom podataka, tj podrazumeva upotrebu funkcija *Dodaj novi entitet*, *Izmeni entitet*, *Izbrisi entitet* i *Osveži*. Kod pojedinih tabela baza imamo mogućnost dodatnih funkcija, koje su vezane za samu tabelu u bazi. Na primer, kod tabele **Autobus** imamo dodatnu funkciju *Ukupno sati voznje* čija je funkcija izračunjavanja i prikaza ukupnog broja sati koji su provozali pojedini Autobusi. Data funkcija se izvršava putem posebne procedure u bazi podataka.
 
 U okviru projekta imamo nekoliko SQL funkcija, procedura, trigera i indeks.
+
+Opširniji opis samog projekta može se naći u samoj dokumentaciji za projekat u fajlu **Projektna dokumentacija E3462014.pdf**
